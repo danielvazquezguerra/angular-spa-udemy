@@ -30,7 +30,7 @@ export class HeroesComponent implements OnInit {
 
   getHeroe(idx:number) {
 
-    this.router.navigate(['/heroe', idx])
+    this.router.navigate(['/heroe', idx]);
 
   }
 
