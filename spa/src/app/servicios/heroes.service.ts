@@ -60,7 +60,7 @@ export class HeroesService {
 
   constructor() {
 
-    console.log('Servicio listo para su uso');
+    console.log('Servicio listo para usar');
 
    }
 
@@ -86,6 +86,7 @@ export class HeroesService {
     }
 
     return heroesArr;
+    
   }
 
   
