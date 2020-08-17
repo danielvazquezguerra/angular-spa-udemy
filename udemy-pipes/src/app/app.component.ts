@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   nombre:string = 'Capitan America';
+  nombre2:string = 'DANieL VAZqueZ guerRA';
   array:any = [
     1,
     2,
