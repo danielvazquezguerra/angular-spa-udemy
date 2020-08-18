@@ -22,6 +22,7 @@ export class AppComponent {
   fecha:Date = new Date();
   idioma:string = 'fr';
   videoUrl:string = 'https://www.youtube.com/embed/VyaWCsA4lqs';
+  activar:boolean = true;
 
   heroe = {
     nombre: 'Logan', 

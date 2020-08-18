@@ -102,6 +102,14 @@
           <td>{{ fecha | date:'MMMM - dd':'':idioma }}</td>
 
         </tr>
+
+        <tr>
+          <td>{{ nombre }}</td>
+          <td> contraseña {{activar}} </td>
+          <br>
+          <button (click)="activar=!activar" class="btn btn-outline-primary"> activar/desactivar</button>
+          <td>{{ nombre | contrasena:activar }}</td>
+        </tr>
         
       </tbody>
     </table>
