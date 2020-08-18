@@ -21,6 +21,7 @@ export class AppComponent {
   salario:number = 1234.5;
   fecha:Date = new Date();
   idioma:string = 'fr';
+  videoUrl:string = 'https://www.youtube.com/embed/VyaWCsA4lqs';
 
   heroe = {
     nombre: 'Logan', 
